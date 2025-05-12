@@ -1,0 +1,92 @@
+.task-form-container {
+  width: 650px;
+  margin: 40px auto;
+  background: linear-gradient(to right, #cce6ff, #e6f2ff);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #99ccff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.task-logo {
+  height: 50px;
+}
+
+.student-profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.student-info {
+  text-align: right;
+  font-style: italic;
+  font-size: 0.95rem;
+  color: #003366;
+}
+
+.profile-pic {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid #3399ff;
+}
+
+.profile-pic:hover {
+  box-shadow: 0 0 0 2px #3399ff;
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-row label {
+  width: 120px;
+  font-weight: bold;
+  color: #003366;
+}
+
+.form-row input[type="text"],
+.form-row input[type="date"],
+.form-row input[type="file"] {
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.submit-btn {
+  margin-top: 15px;
+  background-color: #28a745;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  align-self: center;
+}
+
+.submit-btn:hover {
+  background-color: #218838;
+}
